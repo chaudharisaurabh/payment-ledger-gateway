@@ -1,0 +1,85 @@
+# ==========================================
+# Java & Maven / Gradle Build Artifacts
+# ==========================================
+target/
+*.jar
+*.war
+*.ear
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# ==========================================
+# Frontend (React / TypeScript / Vite / Node)
+# ==========================================
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+
+# Do NOT ignore the template example
+!.env.example
+
+# ==========================================
+# Logs & Operational Temp Files
+# ==========================================
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Docker & Local Data Mounts
+# ==========================================
+postgres_data/
+redis_data/
